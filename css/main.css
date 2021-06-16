@@ -1,0 +1,126 @@
+/* font */
+/* @font-face {
+   font-family: FUTURA BOLD;
+   src: url("../resources/Futura Bold.ttf");
+} */
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
+:root{
+  --bg-one:;
+  --bg-two:  #DCDC0D;
+  --color-one:;
+  --color-two:;
+  --font-sm:;
+  --font-md:;
+  --font-lg:;
+  --btn-color:#fff;
+  --btn-bg:#000;
+  --font-style-one:'Black Han Sans', sans-serif;
+  --font-style-two:;
+
+
+}
+
+body{
+  margin: 0px!important;
+  padding: 0px!important;
+  overflow: hidden!important;
+}
+.section{
+  padding: 15px;
+}
+.logo{
+  margin-top: 25px;
+  margin-left: 25px;
+}
+.header-section{
+    background-image: url("../img/HEADER_BACKGROUND_IMAGE@2x.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 101% 100%;
+    box-shadow: none!important;
+
+}
+.headline{
+  font-weight: bolder;
+  position: absolute;
+  left: 20%;
+}
+.headline-text{
+  font-size: 80px;
+  font-family:var(--font-style-one);
+}
+.rocket-img{
+  position: relative;
+  left: -50px;
+  top: -25px;
+
+}
+ .swipe-up{
+  margin-top: -50px;
+}
+/* social bar icons right side */
+.social-bar-right{
+  position: absolute;
+  right: 5px;
+  top: 40px;
+}
+.social-bar-right li  {
+  padding: 2px 2px;
+}
+
+
+
+
+/* button */
+.btn-outline-c,.btn-outline-c:focus {
+  background-color: transparent!important;
+  color: var(--btn-bg)!important;
+  border: 1px solid #000!important;
+  outline: none!important;
+  box-shadow: none!important;
+}
+
+.btn-play,.btn-play:focus {
+  background-color: #fff!important;
+  color: var(--btn-bg)!important;
+  border: 1px solid #000!important;
+  outline: none!important;
+  box-shadow: none!important;
+}
+
+u{
+  padding-top: 5px!important;
+}
+
+.bg-yellow{
+  background-color: var(--bg-two)!important;
+}
+
+.who_we_are{
+  font-size: 60px;
+  font-family:var(--font-style-one);
+  padding-top: 10px;
+  margin-left: 5%;
+}
+
+.who_we_are_text{
+  /* font-family:century; */
+  font-size: 20px;
+  /* margin-left: 10px!important; */
+}
+.who_we_are_section button{
+  position: relative;
+  top:-20%;
+  left: -20%;
+  padding: 10px 50px;
+
+}
+.know_more_btn {
+  font-size: 14px!important;
+  color: #000;
+  text-decoration: underline;
+   text-decoration-color: #000;
+text-underline-offset:5px;
+}
