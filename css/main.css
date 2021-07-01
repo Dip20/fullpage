@@ -121,6 +121,80 @@ u{
   font-size: 14px!important;
   color: #000;
   text-decoration: underline;
-   text-decoration-color: #000;
-text-underline-offset:5px;
+  text-decoration-color: #000;
+  text-underline-offset:5px;
 }
+
+.form-post-review textarea{
+  border-radius: 30px!important;
+}
+.form-post-review{
+  border-radius: 67px!important;
+  width: 80%;
+}
+
+.review_slider{
+  border-radius: 67px!important;
+}
+.educator_name::after{
+  content: '';
+  display: block;
+  position: relative;
+  top: -92px;
+  right: -265px;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background-color: #fff;
+  border:1px solid #000;
+}
+.educator-cards .card{
+  border-radius: 55px!important;
+  border: 1px solid #000;
+}
+.educator_name{
+  margin-top: -10px;
+  margin-bottom: -80px!important;
+  font-weight: bolder;
+}
+
+.educator_intro{
+  margin-top: -12px;
+  font-size: 14px!important;
+}
+.educator_degree{
+  font-weight: bold;
+}
+
+.social-icon-gorup{
+  margin-top: -80px;
+}
+.social-icon a{
+  text-decoration: none;
+  color: #000!important;
+  font-size: 22px;
+  padding-bottom: 0px;
+}
+
+.success-story-text{
+  text-decoration: underline;
+  text-decoration-color: #aaa;
+}
+.mb-0, .mt-0{
+  /* margin-bottom: 0!important; */
+}
+
+
+/* vendor code pen */
+.icon {
+   /* font-size: 40px; */
+  color: orange;
+  float: left;
+  position: relative;
+  /* top: 10px; */
+}
+.content {
+  margin-top: 0px;
+  margin-left: 50px;
+}
+/* vendor code pen */
