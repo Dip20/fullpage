@@ -35,7 +35,7 @@ body{
   margin-left: 25px;
 }
 .header-section{
-    background-image: url("../img/HEADER_BACKGROUND_IMAGE@2x.png");
+    background-image: url("../img/header_background.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 101% 100%;
@@ -227,4 +227,37 @@ u{
   position: fixed;
   padding-left: 50px;
 
+}
+
+.footer-section{
+    background-image: url("../img/footer-background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 101% 100%;
+    box-shadow: none!important;
+
+}
+.underline{
+    text-underline-offset:11px;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+.bottom-bar::after{
+  content: '';
+  height: 50px;
+  width: 4px;
+  background-color: #000;
+  display: block;
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  /* margin-top: 5px; */
+}
+.footer-right-image{
+  position: relative;
+  top: -485px;
+}
+.margin__top{
+  position:relative;
+  top: -180px;
 }
